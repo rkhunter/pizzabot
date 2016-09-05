@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: goldenrod;
+}
+.container {
+  display: flex;
+}
+.column {
+  flex: 1;
+  background-color: white;
+  margin: 10px;
+  padding: 10px 15px;
+}
+.column > div > h1 {
+  font-family: Helvetica, sans-serif;
+  margin-top: 0;
+}
+
+/* INBOX */
+#inbox > table {
+  text-align: left;
+}
